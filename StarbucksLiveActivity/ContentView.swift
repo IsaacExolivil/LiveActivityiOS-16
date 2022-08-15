@@ -6,16 +6,37 @@
 //
 
 import SwiftUI
+import WidgetKit
+import ActivityKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            VStack{
+                // MARK: inicializar la actividad
+                Button("Empezar compra"){
+                    addLiveAction()
+                    
+                }
+                
+            }
+            .navigationTitle("Live ")
+            .padding(15)
         }
-        .padding()
+    }
+    func addLiveAction(){
+        let orderAtributos = OrdenAtributos(orderNumber: 120, orderItems: "Cafe & Frape")
+        let initialContentState = OrdenAtributos.ContentState()
+        
+        do{
+            let activity = try Activity<OrdenAtributos>.request(attributes: orderAtributos, contentState: initialContentState)
+            print("Activitu Added Successfully")
+            print("Se agrego correctamente la actividad")
+            
+        }catch{
+            print(error.localizedDescription)
+        }
+        
     }
 }
 

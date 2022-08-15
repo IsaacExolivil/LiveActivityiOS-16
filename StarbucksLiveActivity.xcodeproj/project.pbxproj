@@ -11,7 +11,40 @@
 		A0D2BE0628A6E6C200D5C0F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2BE0528A6E6C200D5C0F3 /* ContentView.swift */; };
 		A0D2BE0828A6E6C500D5C0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D2BE0728A6E6C500D5C0F3 /* Assets.xcassets */; };
 		A0D2BE0B28A6E6C500D5C0F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D2BE0A28A6E6C500D5C0F3 /* Preview Assets.xcassets */; };
+		A0D2BE1828A7000C00D5C0F3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2BE1728A7000C00D5C0F3 /* WidgetKit.framework */; };
+		A0D2BE1A28A7000C00D5C0F3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D2BE1928A7000C00D5C0F3 /* SwiftUI.framework */; };
+		A0D2BE1D28A7000C00D5C0F3 /* Starbucks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2BE1C28A7000C00D5C0F3 /* Starbucks.swift */; };
+		A0D2BE2028A7001200D5C0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D2BE1F28A7001200D5C0F3 /* Assets.xcassets */; };
+		A0D2BE2228A7001200D5C0F3 /* Starbucks.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A0D2BE1E28A7000D00D5C0F3 /* Starbucks.intentdefinition */; };
+		A0D2BE2328A7001200D5C0F3 /* Starbucks.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A0D2BE1E28A7000D00D5C0F3 /* Starbucks.intentdefinition */; };
+		A0D2BE2628A7001200D5C0F3 /* StarbucksExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A0D2BE1528A7000C00D5C0F3 /* StarbucksExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0D2BE2E28A700A400D5C0F3 /* OrdenAtributos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2BE2D28A700A400D5C0F3 /* OrdenAtributos.swift */; };
+		A0D2BE2F28A700A500D5C0F3 /* OrdenAtributos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2BE2D28A700A400D5C0F3 /* OrdenAtributos.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D2BE2428A7001200D5C0F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D2BDF828A6E6C200D5C0F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D2BE1428A7000C00D5C0F3;
+			remoteInfo = StarbucksExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0D2BE2A28A7001200D5C0F3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A0D2BE2628A7001200D5C0F3 /* StarbucksExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A0D2BE0028A6E6C200D5C0F3 /* StarbucksLiveActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksLiveActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +52,14 @@
 		A0D2BE0528A6E6C200D5C0F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A0D2BE0728A6E6C500D5C0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D2BE0A28A6E6C500D5C0F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0D2BE1528A7000C00D5C0F3 /* StarbucksExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StarbucksExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D2BE1728A7000C00D5C0F3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A0D2BE1928A7000C00D5C0F3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A0D2BE1C28A7000C00D5C0F3 /* Starbucks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starbucks.swift; sourceTree = "<group>"; };
+		A0D2BE1E28A7000D00D5C0F3 /* Starbucks.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Starbucks.intentdefinition; sourceTree = "<group>"; };
+		A0D2BE1F28A7001200D5C0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D2BE2128A7001200D5C0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D2BE2D28A700A400D5C0F3 /* OrdenAtributos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenAtributos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +70,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0D2BE1228A7000C00D5C0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2BE1A28A7000C00D5C0F3 /* SwiftUI.framework in Frameworks */,
+				A0D2BE1828A7000C00D5C0F3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				A0D2BE0228A6E6C200D5C0F3 /* StarbucksLiveActivity */,
+				A0D2BE1B28A7000C00D5C0F3 /* Starbucks */,
+				A0D2BE1628A7000C00D5C0F3 /* Frameworks */,
 				A0D2BE0128A6E6C200D5C0F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A0D2BE0028A6E6C200D5C0F3 /* StarbucksLiveActivity.app */,
+				A0D2BE1528A7000C00D5C0F3 /* StarbucksExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +104,8 @@
 		A0D2BE0228A6E6C200D5C0F3 /* StarbucksLiveActivity */ = {
 			isa = PBXGroup;
 			children = (
+				A0D2BE2C28A7007F00D5C0F3 /* View */,
+				A0D2BE2B28A7007700D5C0F3 /* Model */,
 				A0D2BE0328A6E6C200D5C0F3 /* StarbucksLiveActivityApp.swift */,
 				A0D2BE0528A6E6C200D5C0F3 /* ContentView.swift */,
 				A0D2BE0728A6E6C500D5C0F3 /* Assets.xcassets */,
@@ -67,6 +122,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A0D2BE1628A7000C00D5C0F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2BE1728A7000C00D5C0F3 /* WidgetKit.framework */,
+				A0D2BE1928A7000C00D5C0F3 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0D2BE1B28A7000C00D5C0F3 /* Starbucks */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2BE1C28A7000C00D5C0F3 /* Starbucks.swift */,
+				A0D2BE1E28A7000D00D5C0F3 /* Starbucks.intentdefinition */,
+				A0D2BE1F28A7001200D5C0F3 /* Assets.xcassets */,
+				A0D2BE2128A7001200D5C0F3 /* Info.plist */,
+			);
+			path = Starbucks;
+			sourceTree = "<group>";
+		};
+		A0D2BE2B28A7007700D5C0F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0D2BE2D28A700A400D5C0F3 /* OrdenAtributos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0D2BE2C28A7007F00D5C0F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +167,34 @@
 				A0D2BDFC28A6E6C200D5C0F3 /* Sources */,
 				A0D2BDFD28A6E6C200D5C0F3 /* Frameworks */,
 				A0D2BDFE28A6E6C200D5C0F3 /* Resources */,
+				A0D2BE2A28A7001200D5C0F3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A0D2BE2528A7001200D5C0F3 /* PBXTargetDependency */,
 			);
 			name = StarbucksLiveActivity;
 			productName = StarbucksLiveActivity;
 			productReference = A0D2BE0028A6E6C200D5C0F3 /* StarbucksLiveActivity.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A0D2BE1428A7000C00D5C0F3 /* StarbucksExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D2BE2728A7001200D5C0F3 /* Build configuration list for PBXNativeTarget "StarbucksExtension" */;
+			buildPhases = (
+				A0D2BE1128A7000C00D5C0F3 /* Sources */,
+				A0D2BE1228A7000C00D5C0F3 /* Frameworks */,
+				A0D2BE1328A7000C00D5C0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbucksExtension;
+			productName = StarbucksExtension;
+			productReference = A0D2BE1528A7000C00D5C0F3 /* StarbucksExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +207,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					A0D2BDFF28A6E6C200D5C0F3 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					A0D2BE1428A7000C00D5C0F3 = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
@@ -116,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				A0D2BDFF28A6E6C200D5C0F3 /* StarbucksLiveActivity */,
+				A0D2BE1428A7000C00D5C0F3 /* StarbucksExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +243,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0D2BE1328A7000C00D5C0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2BE2028A7001200D5C0F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +258,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D2BE2E28A700A400D5C0F3 /* OrdenAtributos.swift in Sources */,
 				A0D2BE0628A6E6C200D5C0F3 /* ContentView.swift in Sources */,
 				A0D2BE0428A6E6C200D5C0F3 /* StarbucksLiveActivityApp.swift in Sources */,
+				A0D2BE2328A7001200D5C0F3 /* Starbucks.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D2BE1128A7000C00D5C0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D2BE1D28A7000C00D5C0F3 /* Starbucks.swift in Sources */,
+				A0D2BE2228A7001200D5C0F3 /* Starbucks.intentdefinition in Sources */,
+				A0D2BE2F28A700A500D5C0F3 /* OrdenAtributos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D2BE2528A7001200D5C0F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D2BE1428A7000C00D5C0F3 /* StarbucksExtension */;
+			targetProxy = A0D2BE2428A7001200D5C0F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A0D2BE0C28A6E6C500D5C0F3 /* Debug */ = {
@@ -262,6 +403,7 @@
 		A0D2BE0F28A6E6C500D5C0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +433,7 @@
 		A0D2BE1028A6E6C500D5C0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +460,60 @@
 			};
 			name = Release;
 		};
+		A0D2BE2828A7001200D5C0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DU3L2R2KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starbucks/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Starbucks;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaac.StarbucksLiveActivity.Starbucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D2BE2928A7001200D5C0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DU3L2R2KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Starbucks/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Starbucks;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.isaac.StarbucksLiveActivity.Starbucks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +531,15 @@
 			buildConfigurations = (
 				A0D2BE0F28A6E6C500D5C0F3 /* Debug */,
 				A0D2BE1028A6E6C500D5C0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D2BE2728A7001200D5C0F3 /* Build configuration list for PBXNativeTarget "StarbucksExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D2BE2828A7001200D5C0F3 /* Debug */,
+				A0D2BE2928A7001200D5C0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
