@@ -25,13 +25,15 @@ struct ContentView: View {
         }
     }
     func addLiveAction(){
+        // Necesitamos una key a Info.plist
         let orderAtributos = OrdenAtributos(orderNumber: 120, orderItems: "Cafe & Frape")
         let initialContentState = OrdenAtributos.ContentState()
         
         do{
-            let activity = try Activity<OrdenAtributos>.request(attributes: orderAtributos, contentState: initialContentState)
+            let activity = try Activity<OrdenAtributos>.request(attributes: orderAtributos, contentState: initialContentState, pushType: nil)
             print("Activitu Added Successfully")
             print("Se agrego correctamente la actividad")
+            print("Activty id: \(activity.id)")
             
         }catch{
             print(error.localizedDescription)

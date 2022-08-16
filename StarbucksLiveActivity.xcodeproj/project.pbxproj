@@ -47,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A0D231BE28AAB896005BBAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A0D2BE0028A6E6C200D5C0F3 /* StarbucksLiveActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksLiveActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D2BE0328A6E6C200D5C0F3 /* StarbucksLiveActivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbucksLiveActivityApp.swift; sourceTree = "<group>"; };
 		A0D2BE0528A6E6C200D5C0F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		A0D2BE0228A6E6C200D5C0F3 /* StarbucksLiveActivity */ = {
 			isa = PBXGroup;
 			children = (
+				A0D231BE28AAB896005BBAFC /* Info.plist */,
 				A0D2BE2C28A7007F00D5C0F3 /* View */,
 				A0D2BE2B28A7007700D5C0F3 /* Model */,
 				A0D2BE0328A6E6C200D5C0F3 /* StarbucksLiveActivityApp.swift */,
@@ -412,6 +414,7 @@
 				DEVELOPMENT_TEAM = 6DU3L2R2KG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarbucksLiveActivity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +445,7 @@
 				DEVELOPMENT_TEAM = 6DU3L2R2KG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarbucksLiveActivity/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
